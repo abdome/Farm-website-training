@@ -1,0 +1,19 @@
+body{
+    counter-reset: Abdo;
+}
+ul
+{
+    list-style: none;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+ul li::before
+{
+    counter-increment: Abdo;
+    content: counter(Abdo) " - ";
+    margin-right: 5px;
+    padding: 2px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}

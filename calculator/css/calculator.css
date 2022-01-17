@@ -1,0 +1,102 @@
+body
+{
+    background-color: rgb(211, 209, 209);
+}
+.container
+{
+    width: 800px;
+    height: 550px;
+    margin: 50px auto;
+    background: url('../images/6.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
+.calculator
+{
+    width: 340px ;
+    height: 400px;
+    box-shadow: 11px 22px 142px rgb(1 1 1);
+    margin: 50px auto;
+    overflow: hidden;
+}
+.result
+{
+    width: 100%;
+    height: 80px;
+    color:rgb(68, 0, 255);
+    font-size: 1.8em;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color:rgb(136, 148, 150) ;
+}
+.final-result
+{
+    text-align: right;
+    padding-right: 20px;
+}
+.operation
+{
+    
+    width: 100%;
+    
+}
+.operation button
+{
+    color: darkblue;
+    outline: none;
+    width: 75px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 0cm;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(90, 126, 123);
+}
+.operation .back
+{
+    background-color: transparent;
+}
+
+#zero
+{
+    align-items:center;
+    margin-left: 95px;
+    
+}
+#equal
+{
+    margin-left: 85px;
+    background-color: darkorange;
+}
+.operation .clear
+{
+    background-color: rgb(163 163 26);
+}
+.operation .CE 
+{
+    background-color: aqua;
+}
+.operation .percent
+{
+    background-color: bisque;
+}
+.operation .divide
+{
+    background-color: blueviolet;
+}
+.operation .mult
+{
+    background-color: red;
+}
+.operation .sube
+{
+    background-color:blueviolet;
+}
+.operation .add
+{
+    background-color: aliceblue;
+}
